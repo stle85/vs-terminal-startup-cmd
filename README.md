@@ -1,4 +1,4 @@
-# VS-terminal-startup-cmd
+# vs-terminal-startup-cmd
 
 ## Overview
 
@@ -8,7 +8,7 @@ The VS Code plugin provides the ability to run a command when opening a terminal
 
 ```json
 {
-	"terminal.integrated.startupCmd": "source ${workspaceFolder}/work.env"
+  "terminal.integrated.startupCmd": "source ${workspaceFolder}/work.env"
 }
 ```
 

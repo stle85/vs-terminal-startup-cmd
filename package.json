@@ -1,9 +1,9 @@
 {
-	"name": "vscode-terminal-api-example",
-	"displayName": "vscode-terminal-api-example",
-	"description": "abc",
+	"name": "vscode-terminal-startup-cmd",
+	"displayName": "vscode-terminal-startup-cmd",
+	"description": "VS Code terminal startup cmd extension",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "serenissimus",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
