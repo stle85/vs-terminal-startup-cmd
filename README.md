@@ -8,7 +8,7 @@ The VS Code plugin provides the ability to run a command when opening a terminal
 
 ```json
 {
-  "terminal.integrated.startupCmd": "source ${workspaceFolder}/work.env"
+  "terminal.startupCmd": "source ${workspaceFolder}/work.env"
 }
 ```
 

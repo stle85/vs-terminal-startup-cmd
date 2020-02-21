@@ -9,7 +9,7 @@ import {
 
 
 export function activate(context: ExtensionContext) {
-	const configName = 'terminal.integrated.startupCmd';
+	const configName = 'terminal.startupCmd';
 
 	let workspaceFolder: string = '';
 	if (workspace.workspaceFolders) {
