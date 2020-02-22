@@ -2,16 +2,16 @@
 	"name": "vscode-terminal-startup-cmd",
 	"displayName": "vscode-terminal-startup-cmd",
 	"description": "VS Code terminal startup cmd extension",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "serenissimus",
-	"license": "BSD 3-Clause License",
+	"license": "BSD-3-Clause",
 	"homepage": "https://github.com/serenissimus/vs-terminal-startup-cmd/blob/master/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/serenissimus/vs-terminal-startup-cmd.git"
 	},
 	"engines": {
-		"vscode": "^1.33.0"
+		"vscode": "^1.41.0"
 	},
 	"enableProposedApi": true,
 	"categories": [
@@ -28,7 +28,25 @@
 				"terminal.startupCmd": {
 					"type": "string",
 					"default": "",
-					"markdownDescription": "Cmd which triggered when the terminal is opened",
+					"markdownDescription": "The cmd which triggered when the terminal is opened",
+					"scope": "window"
+				},
+				"terminal.startupCmd.linux": {
+					"type": "string",
+					"default": "",
+					"markdownDescription": "The cmd which triggered when the terminal is opened Linux platform",
+					"scope": "window"
+				},
+				"terminal.startupCmd.osx": {
+					"type": "string",
+					"default": "",
+					"markdownDescription": "The cmd which triggered when the terminal is opened on Mac OS platform",
+					"scope": "window"
+				},
+				"terminal.startupCmd.windows": {
+					"type": "string",
+					"default": "",
+					"markdownDescription": "The cmd which triggered when the terminal is opened on Windows platform",
 					"scope": "window"
 				}
 			}
